@@ -64,6 +64,9 @@ public class Main {
         System.out.println("Всего работников в компании на данный момент " + HowManyHoursTotal + " Человек");
         var DifferencesNewAndOldEmployees = (AdditionalEmployees - HowManyTotalEmployees);
         System.out.println("Разница Новых и старых сотрудников " + DifferencesNewAndOldEmployees + " человек");
+        var TotalHours = (TotalTime * 2) + (DifferencesNewAndOldEmployees * TimeOneEmployee);
+        System.out.println("Если в компании работает " + HowManyHoursTotal + " человек, то всего " + TotalHours + " часа работы может быть поделено между сотрудниками");
+
 
 
     }
