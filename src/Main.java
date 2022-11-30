@@ -62,6 +62,8 @@ public class Main {
         var AdditionalEmployees = 94;
         var HowManyHoursTotal = HowManyTotalEmployees + AdditionalEmployees;
         System.out.println("Всего работников в компании на данный момент " + HowManyHoursTotal + " Человек");
+        var DifferencesNewAndOldEmployees = (AdditionalEmployees - HowManyTotalEmployees);
+        System.out.println("Разница Новых и старых сотрудников " + DifferencesNewAndOldEmployees + " человек");
 
 
     }
