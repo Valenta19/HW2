@@ -48,5 +48,10 @@ public class Main {
         var Difference = (WeightFirstBoxer - WeightSecondBoxer) % TotalWeightOfBoxers;
         System.out.println("Разница в весе боксеров " + Difference + " кг!");
 
+        System.out.println("Задача 7");
+        var TotalWeightBoxers = WeightSecondBoxer - WeightFirstBoxer;
+        System.out.println("Разница в весе боксеров " + TotalWeightBoxers + " кг ");
+
+
     }
 }
