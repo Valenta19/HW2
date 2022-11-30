@@ -59,6 +59,9 @@ public class Main {
         var TimeOneEmployee = 8;
         var HowManyTotalEmployees = TotalTime / TimeOneEmployee;
         System.out.println("Всего работников в компании " + HowManyTotalEmployees + " Человек");
+        var AdditionalEmployees = 94;
+        var HowManyHoursTotal = HowManyTotalEmployees + AdditionalEmployees;
+        System.out.println("Всего работников в компании на данный момент " + HowManyHoursTotal + " Человек");
 
 
     }
