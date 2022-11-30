@@ -54,6 +54,11 @@ public class Main {
         var DifferenceWeightBoxers = (WeightSecondBoxer % WeightFirstBoxer);
         System.out.println("Разница в весе боксеров " + DifferenceWeightBoxers + " кг ");
 
+        System.out.println("Задача 8");
+        var TotalTime = 640;
+        var TimeOneEmployee = 8;
+        var HowManyTotalEmployees = TotalTime / TimeOneEmployee;
+        System.out.println("Всего работников в компании " + HowManyTotalEmployees + " Человек");
 
 
     }
